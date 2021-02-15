@@ -112,3 +112,11 @@ nav a:hover {
   font-weight: normal;
   padding: 20px 0;
 }
+
+.contact {
+  height: 200px;
+}
+
+.contact h5 {
+  padding: 25px 0;
+}
