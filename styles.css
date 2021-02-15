@@ -120,3 +120,11 @@ nav a:hover {
 .contact h5 {
   padding: 25px 0;
 }
+
+footer {
+  text-align: left;
+}
+
+footer h5 {
+  padding: 20px;
+}
