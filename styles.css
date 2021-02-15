@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .teaMonth {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .teasContainer {
@@ -79,4 +79,36 @@ nav a:hover {
   padding: 20px;
   height: 200px;
   width: 300px;
+}
+
+.locations {
+  height: 500px;
+  margin: 0 2.5%;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.locations h2 {
+  padding-top: 90px;
+  background-color: transparent;
+}
+
+.locationsContainer {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.locationBox {
+  width: 300px;
+  padding: 30px 0px;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.locationBox h4 {
+  font-weight: normal;
+  padding: 20px 0;
 }
