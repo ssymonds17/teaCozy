@@ -19,6 +19,7 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
+  background-color: black;
 }
 
 .logo {
@@ -39,4 +40,25 @@ nav li {
 
 nav a:hover {
   cursor: pointer;
+}
+
+.banner {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 700px;
+  margin: 0 2.5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerText {
+  width: 100%;
+  background-color: black;
+}
+
+.bannerText h2,
+.bannerText h4 {
+  padding: 10px;
 }
