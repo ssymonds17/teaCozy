@@ -14,6 +14,7 @@ html {
 
 header {
   display: flex;
+  justify-content: space-between;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -21,8 +22,21 @@ header {
 }
 
 .logo {
-  align-self: flex-start;
   margin-left: 10px;
   padding: 9px 0;
   height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+nav a:hover {
+  cursor: pointer;
 }
